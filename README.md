@@ -9,7 +9,7 @@ This repository (Code-Refactoring) is an educational homework assignment from CA
 <img src="https://user-images.githubusercontent.com/77902368/109371739-48ed9000-7874-11eb-8724-837a8cb62fc5.png" alt="screenshot">
 
 
-# ASSIGNMENT
+# Assignment
 The assignment was to help a marketing agency refactor existing code so that it meets their specific accessibility standards, which in turn would optimize it for search engines. Their requested accessibility standards included: the source code be updated with semantic html elements; the html elements follow a logical structure independent of styling and positioning; has accessible alt attributes; heading attributes fall in sequential order; the title is concise and descriptive. 
 
 # Installation: Code-Refactoring
