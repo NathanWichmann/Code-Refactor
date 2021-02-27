@@ -13,24 +13,10 @@ This repository (Code-Refactoring) is an educational homework assignment from CA
 The assignment was to help a marketing agency refactor existing code so that it meets their specific accessibility standards, which in turn would optimize it for search engines. Their requested accessibility standards included: the source code be updated with semantic html elements; the html elements follow a logical structure independent of styling and positioning; has accessible alt attributes; heading attributes fall in sequential order; the title is concise and descriptive. 
 
 # Installation: Code-Refactoring
-I removed all the <div> attributes from the html doctype and replaced them with semantic html elements. These include but are not limited to: w3schools list also using the recommended web page layout.  
-<article>                                                    
-<aside> 
-<details>
-<figcaption>
-<figure>
-<footer>
-<header>
-<main>
-<mark>
-<nav>
-<section>
-<summary>
-<time>
-
-The first replaced div was the header section. This allows search engines to easily identify what the section is. The <div> element comes with no descriptors and could contain anything. Once all webpages adopt these elements, search engines will better understand what the page contains. I also replaced the <div> containing the three-header links with a nav and cleaned up the un-ordered list to be more visually appealing. I also, had to change the style notes to reflect this change to <nav>, otherwise the CSS would not reflect the required styles. A side note: the title was changed later to Optimizing Visibility Using Accessibility Standards.
+I removed all the div attributes from the html doctype and replaced them with semantic html elements. These include but are not limited to: w3schools list also using the recommended web page layout.
+The first replaced div was the header section. This allows search engines to easily identify what the section is. The div element comes with no descriptors and could contain anything. Once all webpages adopt these elements, search engines will better understand what the page contains. I also replaced the div containing the three-header links with a nav and cleaned up the un-ordered list to be more visually appealing. I also, had to change the style notes to reflect this change to nav, otherwise the CSS would not reflect the required styles. A side note: the title was changed later to Optimizing Visibility Using Accessibility Standards.
 The second section was replaced with summary and not a section element as I thought this was the heart of the website and deserved more of a distinction than just section. I added an image tag and a src of the image and an alt attribute. This was missing from the html doc and would confuse future developers as to where the picture came from unless they looked in the CSS file. The CSS had set the picture to background and there was no html link other than hero, which appeared to be confusing. I then took the three different div sections and placed them under the summary and gave them each article elements. This is because each of the three were not directly related but worked together to form the heart of the website. 
-The third section I decided to label <aside> because they were indirectly related to the summary section of the website. They were the benefits of using the three-above links. Also, in the html layout model below, they are in the aside position. I decided in the end that I had not seen enough examples of summary tags in symantic gtml and changed it to the suggested section
+The third section I decided to label aside because they were indirectly related to the summary section of the website. They were the benefits of using the three-above links. Also, in the html layout model below, they are in the aside position. I decided in the end that I had not seen enough examples of summary tags in symantic gtml and changed it to the suggested section
  
 I did not follow the above html layout exactly as displayed, because calling everything in the section and article section seem to be confusing and was not as visually appealing as I would like it to. I chose this direction for aesthetic reasons. It's just more clean, clear and concise, just as the assignment requested. 
 I repeated the same steps for the aside section and cleaned up the code and added developer notes to the entire doc. I then changed to the h1 to h6 tags, which came with a new set of problems. The existing code had the same h tags for many of the headings, so they appeared to be the same size on the website. This seemed to appear better than changing them to sequential order. The first section had headings with h2 tags for all three and the second section had h3 tags for the three headings. I added the h tags in sequential order and realized two unintended outcomes. 
@@ -46,7 +32,7 @@ The project itself helped better understand why this type of activity is done. T
 It helped me understand the layout of semantic html and how it can benefit future developers with descriptors. It can be hard to guess what a divs original intention was. This easy-to-understand layout allows people to better understand previous developers intentions. The developer notes in green on the html doc and the CSS file allow the next user to understand what they are and where they are on the site. All this allows for a consistency in coding that was previously lacking and can be used on phones, tablets, laptops, and desktops. 
 # Upate:
 Figured out the link on the top was missing an id and class. I first added the id because I noticed it was not the same as the other 2 links. However, that created a new issue, the CSS were not being applied to the search-engine-optimization article, so the website was all over the place. I had to go through a process of elimination to narrow it down to the class. I tried changing the CSS to have it on its own because I consolidated them. That did nothing. Then I tried to check the image and see if there was an issue with CSS for that image. Found there were no issue as all three of the images had been consolidated and none of the styles were missing from the original assignment. Then it clicked, the image was not getting any of the CSS because it was not connected. This took some time cause all the names are the same and I finally noticed the other two have a class and this one did not. Once I added the class, that fixed the issue. Anastasia from class helped with the id and I figured out the rest on my own. 
-Contributing
+# Contributing
 https://www.w3schools.com/html/html5_semantic_elements.asp
 https://www.freecodecamp.org/news/semantic-html5-elements/
 These two websites helped me understand the semantic elements and why they are required in today's atmosphere of internet usage. 
