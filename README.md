@@ -6,7 +6,7 @@ This repository (Code-Refactoring) is an educational homework assignment from CA
 <a href="https://nathanwichmann.github.io/Code-Refactor/">Repository</a> 
 
 
-<img src="https://github.com/NathanWichmann/Code-Refactor/issues/1#issue-817790812" alt="screenshot">
+<img src="https://user-images.githubusercontent.com/77902368/109371739-48ed9000-7874-11eb-8724-837a8cb62fc5.png" alt="screenshot">
 
 
 # ASSIGNMENT
