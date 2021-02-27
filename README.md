@@ -1,18 +1,18 @@
-**#Code-Refactor**
+# Code-Refactor
 
-**Repository**
+# Repository
 This repository (Code-Refactoring) is an educational homework assignment from CARL-OTT-FSF-PT-02-20121-U-C course. It was designed to help familiarize students with html5 attributes and how to implement them. There is also a CSS component, which allows students to become more  acquainted with their int erconnectedness.
 
-<a href="https://github.com/NathanWichmann/Code-Refactor/tree/main/Code-Refactor" alt="Repository"> 
+<a href="https://github.com/NathanWichmann/Code-Refactor/tree/main/Code-Refactor" alt="Repository"</a> 
 
 
 <img scr="https://1drv.ms/u/s!AmXZ3qk2N-K2pxInB0I1nL6nt1sL" alt="Screenshot">  
 
 
-**#ASSIGNMENT**
+# ASSIGNMENT
 The assignment was to help a marketing agency refactor existing code so that it meets their specific accessibility standards, which in turn would optimize it for search engines. Their requested accessibility standards included: the source code be updated with semantic html elements; the html elements follow a logical structure independent of styling and positioning; has accessible alt attributes; heading attributes fall in sequential order; the title is concise and descriptive. 
 
-**#Installation: Code-Refactoring**
+# Installation: Code-Refactoring
 I removed all the <div> attributes from the html doctype and replaced them with semantic html elements. These include but are not limited to: �w3schools list� also using the recommended web page layout.  
 <article>                                                    
 <aside> 
@@ -40,7 +40,7 @@ Cascading Style sheets
 This section of the homework assignment was much harder to figure out. The style sheet seemed to be working fine and I had made the necessary changes to link the html to the CSS when I changed some of the names. It was not until I stared at the code for awhile and realized a lot of it was repeating. So, I remembered from class that some of the same styles that had the same style attributes could be combined. Once I started doing that (which took some time as left out the.) I began to realize that a lot more of the code was redundant than I initially thought. So, I consolidated all the style elements that had the same values. Then I moved the style headings to be aligned with the flow of the html doc. I also, removed a footer note that had zero value which made no changes to the site. 
 I wanted to move the paragraph in the footer to heading tag so they would be on the same line and have the same font size. However, the assignment called for the site to look at least 90% the same as the original code. So, I decided to leave the heading and the paragraph the same as they had their own styles in the style notes and did not want to be seen changing the structure of the site. 
 
-**#What I learnt** 
+# What I learnt
 I learned a lot doing this project. I thought it was due on Tuesday February 16th, so I did it all before the class and knew nothing about what I was doing. I had to look up everything for the assignment. I did not even know what semantic html elements where. I extensively used w3schools.com to educate myself as to what they were. I also used various question answer sites to help with questions I may have had. I learnt that any question I may have can be googled and there is an answer 9 times out of 10. 
 The project itself helped better understand why this type of activity is done. To help companies make their websites more accessible to people by increasing their ranking in search engines. Using proper semantic html tags allows the code to be human and machine readable. Being that most people use their phones to search the web now it allows for better readability across all devices that use the internet. They also increase the ability of people with impairments access the site. This allows people using web accessibility tools such as screen readers the ability to understand what the website is trying to say through <alt�s>. People that are visually impaired or hearing impaired. This is an incentive to reduce the amount of accessibility lawsuits a company may face from discrimination. 
 It helped me understand the layout of semantic html and how it can benefit future developers with descriptors. It can be hard to guess what a <div>�s original intention was. This easy-to-understand layout allows people to better understand previous developers� intentions. The developer notes in green on the html doc and the CSS file allow the next user to understand what they are and where they are on the site. All this allows for a consistency in coding that was previously lacking and can be used on phones, tablets, laptops, and desktops. 
