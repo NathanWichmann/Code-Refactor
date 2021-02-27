@@ -3,7 +3,7 @@
 # Repository
 This repository (Code-Refactoring) is an educational homework assignment from CARL-OTT-FSF-PT-02-20121-U-C course. It was designed to help familiarize students with html5 attributes and how to implement them. There is also a CSS component, which allows students to become more  acquainted with their int erconnectedness.
 
-<a href="https://nathanwichmann.github.io/Code-Refactor/">Repository</a> 
+# Deployed Website Link <a href="https://nathanwichmann.github.io/Code-Refactor/">Website</a> 
 
 
 <img src="https://user-images.githubusercontent.com/77902368/109371739-48ed9000-7874-11eb-8724-837a8cb62fc5.png" alt="screenshot">
